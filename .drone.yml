@@ -1,8 +1,8 @@
 pipeline:
 
-  testing:
+  install:
     image: node:8.6.0
-    group: testing
     commands:
-      - yarn run test
+      - node -v
+      - npm -v
 
